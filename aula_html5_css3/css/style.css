@@ -1,0 +1,41 @@
+body {
+    background: #FFFFFF;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+
+}
+
+header {
+    margin-top: 60px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #000000;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: #000000;
+    font-family: sans-serif;
+}
+
+p {
+    color: #2E2E2E;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+footer {
+    margin-bottom: 100px;
+}
+
+.img_padrao {
+    margin: 20px;
+    width: 400px;
+}
+
+.logo {
+    width: 40px;
+}
