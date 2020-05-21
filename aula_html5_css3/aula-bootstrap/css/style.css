@@ -11,4 +11,15 @@
 
 .margin-flex {
     margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bg-footer {
+    color: white;
+    background-color: rgb(129, 127, 127);
+}
+
+.padding-flex {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
