@@ -47,9 +47,38 @@ while (count <= 5) {
 for (count = 0; count <= 5; count++) {
     alert(count);
 };
- 
-// Aprendendo a usar Data
+*/ 
+
+/* Aprendendo a usar Date()
 var d = new Date();
 alert(d) // retorna "Fri May 22 2020 16:07:21 GMT-0300 (Brasilia Standard Time)"
 alert(d.getDate) // retorna o dia. tem vários outros métodos get (minutes, month, etc)
 */
+
+/* Aprendendo a escrever funções
+
+function soma(n1, n2) {
+    return n1 + n2;
+}
+
+alert(soma(5, 10));
+*/
+
+/* Aprendendo sobre variável local e global
+*/
+
+var validar = 0; // essa variavel é global
+function validarIdade(idade) {
+    var validar; // esses validar são variáveis locais (para pegar a global, basta não declará-las - não utilizar o var)
+    // validar; // nesse caso, a função pegaria e mudaria o validar global
+    if (idade >= 18) {
+        validar = true;
+    }
+    else {
+        validar = false;
+    }
+    return validar;
+}
+var idade = prompt("Qual sua idade?");
+validarIdade(idade);
+console.log(validar);
